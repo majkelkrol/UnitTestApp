@@ -18,7 +18,7 @@ final class Model_USD_UnitTest: XCTestCase {
     }
     
     func test_Model_validPriceDataWithView() {
-        XCTAssertEqual(0.129340, model.price)
+        XCTAssertEqual("0.129340", model.price)
     }
     
     func test_Model_validNameDataWithView() {
@@ -38,19 +38,19 @@ final class Model_USD_UnitTest: XCTestCase {
     }
     
     func test_Model_validOpenDataWithView() {
-        XCTAssertEqual(0.084609, model.open)
+        XCTAssertEqual("0.084609", model.open)
     }
     
     func test_Model_validHighDataWithView() {
-        XCTAssertEqual(0.151049, model.high)
+        XCTAssertEqual("0.151049", model.high)
     }
     
     func test_Model_validLowDataWithView() {
-        XCTAssertEqual(0.082968, model.low)
+        XCTAssertEqual("0.082968", model.low)
     }
     
     func test_Model_validCloseDataWithView() {
-        XCTAssertEqual(0.129290, model.close)
+        XCTAssertEqual("0.129290", model.close)
     }
     
     func test_Model_validChangeDataWithView() {
