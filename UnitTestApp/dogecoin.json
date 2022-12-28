@@ -1,0 +1,24 @@
+{
+    "name": "Dogecoin",
+    "symbol": "DOGE.V",
+    "date": "29.10.2022",
+    "change": "+52.81%",
+    "currency": [
+        {
+            "value": "USD",
+            "price": 0.129340,
+            "open": 0.084609,
+            "high": 0.151049,
+            "low": 0.082968,
+            "close": 0.129290
+        },
+        {
+            "value": "EUR",
+            "price": 0.128900,
+            "open": 0.084321,
+            "high": 0.150536,
+            "low": 0.082686,
+            "close": 0.128850
+        }
+    ]
+}

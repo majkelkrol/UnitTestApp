@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B17B27E295B10B200CEE014 /* Dogecoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B17B27D295B10B200CEE014 /* Dogecoin.swift */; };
-		7B17B280295B114300CEE014 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B17B27F295B114300CEE014 /* Currency.swift */; };
+		7B17B283295B16DD00CEE014 /* Dogecoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B17B282295B16DD00CEE014 /* Dogecoin.swift */; };
+		7B17B285295B16E900CEE014 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B17B284295B16E900CEE014 /* Currency.swift */; };
+		7B17B289295B18D000CEE014 /* JSON_UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B17B288295B18D000CEE014 /* JSON_UnitTest.swift */; };
 		7B2C2B172955B7F4004A56C8 /* Model_USD_UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C2B162955B7F4004A56C8 /* Model_USD_UnitTest.swift */; };
 		7B2C2B192955BE82004A56C8 /* Model_EUR_UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C2B182955BE82004A56C8 /* Model_EUR_UnitTest.swift */; };
 		7BB5B11F2954F7EB0044E105 /* UnitTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5B11E2954F7EB0044E105 /* UnitTestAppApp.swift */; };
 		7BB5B1212954F7EB0044E105 /* DogecoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5B1202954F7EB0044E105 /* DogecoinView.swift */; };
 		7BB5B1232954F7ED0044E105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5B1222954F7ED0044E105 /* Assets.xcassets */; };
 		7BB5B1262954F7ED0044E105 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5B1252954F7ED0044E105 /* Preview Assets.xcassets */; };
+		7BB5B12D2954F9BA0044E105 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5B12C2954F9BA0044E105 /* Model.swift */; };
+		7BEDBC16295C76EE00222CDA /* JSON_Bundle_UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDBC15295C76EE00222CDA /* JSON_Bundle_UnitTest.swift */; };
+		7BEDBC18295C77DC00222CDA /* dogecoin.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BEDBC17295C77DC00222CDA /* dogecoin.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B17B27B295B106B00CEE014 /* json.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = json.geojson; sourceTree = "<group>"; };
-		7B17B27D295B10B200CEE014 /* Dogecoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogecoin.swift; sourceTree = "<group>"; };
-		7B17B27F295B114300CEE014 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		7B17B282295B16DD00CEE014 /* Dogecoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogecoin.swift; sourceTree = "<group>"; };
+		7B17B284295B16E900CEE014 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		7B17B288295B18D000CEE014 /* JSON_UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_UnitTest.swift; sourceTree = "<group>"; };
 		7B2C2B0D2955B78B004A56C8 /* UnitTestApp_UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestApp_UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2C2B162955B7F4004A56C8 /* Model_USD_UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_USD_UnitTest.swift; sourceTree = "<group>"; };
 		7B2C2B182955BE82004A56C8 /* Model_EUR_UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_EUR_UnitTest.swift; sourceTree = "<group>"; };
@@ -39,6 +43,9 @@
 		7BB5B1202954F7EB0044E105 /* DogecoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogecoinView.swift; sourceTree = "<group>"; };
 		7BB5B1222954F7ED0044E105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BB5B1252954F7ED0044E105 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BB5B12C2954F9BA0044E105 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7BEDBC15295C76EE00222CDA /* JSON_Bundle_UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_Bundle_UnitTest.swift; sourceTree = "<group>"; };
+		7BEDBC17295C77DC00222CDA /* dogecoin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dogecoin.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +66,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7B17B27C295B109600CEE014 /* Model */ = {
+		7B17B281295B16A400CEE014 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7B17B27D295B10B200CEE014 /* Dogecoin.swift */,
-				7B17B27F295B114300CEE014 /* Currency.swift */,
+				7B17B282295B16DD00CEE014 /* Dogecoin.swift */,
+				7B17B284295B16E900CEE014 /* Currency.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -73,6 +80,8 @@
 			children = (
 				7B2C2B162955B7F4004A56C8 /* Model_USD_UnitTest.swift */,
 				7B2C2B182955BE82004A56C8 /* Model_EUR_UnitTest.swift */,
+				7B17B288295B18D000CEE014 /* JSON_UnitTest.swift */,
+				7BEDBC15295C76EE00222CDA /* JSON_Bundle_UnitTest.swift */,
 			);
 			path = UnitTestApp_UnitTests;
 			sourceTree = "<group>";
@@ -98,10 +107,11 @@
 		7BB5B11D2954F7EB0044E105 /* UnitTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				7B17B27C295B109600CEE014 /* Model */,
 				7BB5B11E2954F7EB0044E105 /* UnitTestAppApp.swift */,
 				7BB5B1202954F7EB0044E105 /* DogecoinView.swift */,
-				7B17B27B295B106B00CEE014 /* json.geojson */,
+				7B17B281295B16A400CEE014 /* Model */,
+				7BB5B12C2954F9BA0044E105 /* Model.swift */,
+				7BEDBC17295C77DC00222CDA /* dogecoin.json */,
 				7BB5B1222954F7ED0044E105 /* Assets.xcassets */,
 				7BB5B1242954F7ED0044E105 /* Preview Content */,
 			);
@@ -205,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BEDBC18295C77DC00222CDA /* dogecoin.json in Resources */,
 				7BB5B1262954F7ED0044E105 /* Preview Assets.xcassets in Resources */,
 				7BB5B1232954F7ED0044E105 /* Assets.xcassets in Resources */,
 			);
@@ -218,7 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B2C2B192955BE82004A56C8 /* Model_EUR_UnitTest.swift in Sources */,
+				7B17B289295B18D000CEE014 /* JSON_UnitTest.swift in Sources */,
 				7B2C2B172955B7F4004A56C8 /* Model_USD_UnitTest.swift in Sources */,
+				7BEDBC16295C76EE00222CDA /* JSON_Bundle_UnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B17B280295B114300CEE014 /* Currency.swift in Sources */,
+				7BB5B12D2954F9BA0044E105 /* Model.swift in Sources */,
+				7B17B285295B16E900CEE014 /* Currency.swift in Sources */,
+				7B17B283295B16DD00CEE014 /* Dogecoin.swift in Sources */,
 				7BB5B1212954F7EB0044E105 /* DogecoinView.swift in Sources */,
-				7B17B27E295B10B200CEE014 /* Dogecoin.swift in Sources */,
 				7BB5B11F2954F7EB0044E105 /* UnitTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
